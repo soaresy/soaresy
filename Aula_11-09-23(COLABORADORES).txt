@@ -1,0 +1,24 @@
+CREATE TABLE Colaboradores
+(
+  ID VARCHAR(200 ),
+  CPF VARCHAR(200 ),
+  CARGO VARCHAR(200 ),
+  SALARIO VARCHAR(200 )
+  );
+
+INSERT INTO Colaboradores (ID, CPF, CARGO, SALARIO)
+VALUES ('236019', '333.444.555-66', 'gerente', '10000,00');
+
+INSERT INTO Colaboradores (ID, CPF, CARGO, SALARIO)
+VALUES ('236020', '334.445.556-67', 'auxiliar', '2000,00');
+
+INSERT INTO Colaboradores (ID, CPF, CARGO, SALARIO)
+VALUES ('236021', '335.446.557-68', 'arquiteto', '5000,00');
+
+INSERT INTO Colaboradores (ID, CPF, CARGO, SALARIO)
+VALUES ('236022', '336.447.558-69', 'engenheiro', '6000,00');
+
+INSERT INTO Colaboradores (ID, CPF, CARGO, SALARIO)
+VALUES ('236023', '337.448.559-61', 'estagiario', '800,00');
+
+SELECT ID, CPF, CARGO, SALARIO FROM Colaboradores;
