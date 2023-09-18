@@ -1,0 +1,28 @@
+CREATE TABLE Autores
+(
+nome VARCHAR(20),
+data_nasc DATE,
+nacionalidade VARCHAR(20),
+email VARCHAR(25)
+);
+
+
+
+INSERT INTO Autores (nome, data_nasc, nacionalidade, email)
+VALUES ('Felipe', '2002-11-26', 'Brasileiro', 'felipe@gmail.com');
+
+SELECT * FROM Autores;
+
+CREATE TABLE Livros
+(
+titulo VARCHAR(20),
+quant_pg INT,
+acabamento VARCHAR(20),
+editora VARCHAR(25)
+);
+
+
+INSERT INTO Livros (titulo, quant_pg, acabamento, editora)
+VALUES ('O Alquimista', 256, 'Capa dura', 'SLA');
+
+SELECT * FROM Livros;

@@ -1,0 +1,25 @@
+CREATE TABLE Automoveis
+(
+placa VARCHAR(7),
+modelo VARCHAR(20),
+ano INT
+);
+
+INSERT INTO Automoveis (placa, modelo, ano)
+VALUES ('BRA-2E19', 'CELTA', 2012);
+
+SELECT * FROM Automoveis;
+
+
+
+CREATE TABLE Montadora
+(
+nome VARCHAR(20),
+site VARCHAR(25),
+logotipo VARCHAR(20)
+);
+
+INSERT INTO Montadora (nome, site, logotipo)
+VALUES ('CHEVROLET', 'WWW.CHEVROLET.com', '----');
+
+SELECT * FROM Montadora;

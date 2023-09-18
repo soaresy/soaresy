@@ -1,0 +1,22 @@
+CREATE TABLE Filmes (
+    ID VARCHAR(255),
+    Titulo VARCHAR(255) NOT NULL,
+    Duracao VARCHAR(255), 
+    IdiomaOriginal VARCHAR(50),
+    Preco DECIMAL(10, 2)
+);
+
+CREATE TABLE Elenco (
+    ID VARCHAR(100),
+    Nome VARCHAR(100) NOT NULL,
+    DataNascimento DATE,
+    Nacionalidade VARCHAR(50),
+    FilmeID VARCHAR(100),
+);
+
+CREATE TABLE Diretores (
+    ID VARCHAR(100),
+    Nome VARCHAR(100) NOT NULL,
+    DataNascimento DATE,
+    Nacionalidade VARCHAR(50)
+);

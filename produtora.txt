@@ -1,0 +1,22 @@
+CREATE TABLE Desenvolvedores (
+    DesenvolvedorID INT PRIMARY KEY,
+    Nome VARCHAR(200) NOT NULL,
+    CPF VARCHAR(100) UNIQUE NOT NULL,
+    DataNascimento DATE
+);
+
+CREATE TABLE Projetos (
+    ProjetoID INT PRIMARY KEY,
+    Nome VARCHAR(200) NOT NULL,
+    DataLancamento DATE,
+    Genero VARCHAR(200),
+    FaixaEtaria INT
+);
+
+CREATE TABLE DesenvolvedoresProjetos (
+    DesenvolvedorProjetoID INT PRIMARY KEY,
+    DesenvolvedorID INT,
+    ProjetoID INT,
+    FOREIGN KEY (DesenvolvedorID) REFERENCES Desenvolvedores(DesenvolvedorID),
+    FOREIGN KEY (ProjetoID) REFERENCES Projetos(ProjetoID)
+);
