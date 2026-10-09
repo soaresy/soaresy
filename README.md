@@ -44,8 +44,6 @@ Gosto de pegar problemas reais, entender o fluxo inteiro e transformar isso em e
 | **JD iPhones · Loja** | Experiência de compra online da JD iPhones. | [Visitar loja](https://www.jdiphones.com.br/) |
 | **JD iPhones · App** | Aplicação para a operação da JD iPhones. | [Abrir app](https://app.jdiphones.com.br/app/) |
 
-### 👾 Pac-Man nas contribuições
-
 <div align="center">
 
 <picture>
