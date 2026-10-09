@@ -38,11 +38,23 @@ Gosto de pegar problemas reais, entender o fluxo inteiro e transformar isso em e
 
 ### 🚀 Projetos em destaque
 
-| Projeto | O que é | Stack / tema |
+| Projeto | O que é | Acesse |
 | --- | --- | --- |
-| [SmartMob](https://github.com/soaresy/SmartMob) | Plataforma de mobilidade urbana com foco em rotas, transporte e dados em tempo real. | TypeScript · React · Supabase |
-| [ghostai](https://github.com/soaresy/ghostai) | Experimento de produto com backend em Python e interface web. | Python · Web · IA |
-| [HydroPower](https://github.com/soaresy/HydroPower) | Projeto acadêmico de tecnologia. | Pesquisa · Produto |
+| **New BeeDocs** | Aplicação para gestão de documentos e processos. | [Abrir BeeDocs](https://beedocs.epiuse.com.br/administration) |
+| **JD iPhones · Loja** | Experiência de compra online da JD iPhones. | [Visitar loja](https://www.jdiphones.com.br/) |
+| **JD iPhones · App** | Aplicação para a operação da JD iPhones. | [Abrir app](https://app.jdiphones.com.br/app/) |
+
+### 👾 Pac-Man nas contribuições
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soaresy/soaresy/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/soaresy/soaresy/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man percorrendo minhas contribuições no GitHub" src="https://raw.githubusercontent.com/soaresy/soaresy/output/pacman-contribution-graph.svg">
+</picture>
+
+</div>
 
 ### 📊 GitHub em números
 
